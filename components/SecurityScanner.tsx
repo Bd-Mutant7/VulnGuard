@@ -2,7 +2,7 @@
 
 import { useState, useRef } from 'react';
 import Editor from '@monaco-editor/react';
-
+declare const monaco: any;
 export function SecurityScanner() {
   const [code, setCode] = useState('');
   const [language, setLanguage] = useState('javascript');
