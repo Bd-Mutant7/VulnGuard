@@ -78,23 +78,25 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## 🛠️ Project Structure
 
-vulnguard/
-├── app/                    # Next.js app directory
-│   ├── api/               # API routes
-│   │   └── scan/          # Scanning API endpoint
-│   ├── globals.css        # Global styles
-│   ├── layout.tsx         # Root layout
-│   └── page.tsx           # Home page
-├── components/            # React components
-│   └── SecurityScanner.tsx # Main scanner component
-├── lib/                   # Core libraries
-│   └── scanners/          # Scanner implementations
-│       └── javascriptScanner.ts # JS vulnerability scanner
-├── prisma/                # Database schema
-│   └── schema.prisma      # Prisma schema
-├── types/                 # TypeScript definitions
-├── public/                # Static assets
-└── config files          # Various config files
+## 🛠️ Project Structure
+
+**vulnguard/**
+- **app/** - Next.js app directory
+  - **api/** - API routes
+    - **scan/** - Scanning API endpoint
+  - globals.css - Global styles
+  - layout.tsx - Root layout
+  - page.tsx - Home page
+- **components/** - React components
+  - SecurityScanner.tsx - Main scanner component
+- **lib/** - Core libraries
+  - **scanners/** - Scanner implementations
+    - javascriptScanner.ts - JS vulnerability scanner
+- **prisma/** - Database schema
+  - schema.prisma - Prisma schema
+- **types/** - TypeScript definitions
+- **public/** - Static assets
+- config files - Various config files
 
 ## 🔧 Available Scripts
 
@@ -174,4 +176,4 @@ Give a ⭐️ if this project helped you!
 
 ---
 
-**Built with ❤️ by the Security Community**
+**Built with ❤️**
