@@ -63,7 +63,7 @@ Create a `.env.local` file with:
 ### Development Server
 `npm run dev` or `yarn dev`
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+Open [vuln-guard.vercel.app](https://vuln-guard.vercel.app/) in your browser.
 
 ### Production Build
 `npm run build`
