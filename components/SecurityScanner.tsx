@@ -2,9 +2,7 @@
 
 import { useState, useRef } from 'react';
 import Editor from '@monaco-editor/react';
-declare global {
-  const monaco: typeof import('monaco-editor');
-}
+
 export function SecurityScanner() {
   const [code, setCode] = useState('');
   const [language, setLanguage] = useState('javascript');
